@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Darmowe Gry</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Darmowe Gry</h1>
+  <ul>
+    {% for game in games %}
+      <li><a href="{{ game.url }}" target="_blank">{{ game.title }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

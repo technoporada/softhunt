@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+*.db
+last_reddit_post*.txt
+app/scraper/last_reddit_post*.txt
