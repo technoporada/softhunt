@@ -55,6 +55,13 @@ uvicorn app.main:app --reload      # web UI na :8000
   Reddit (PRAW) wymaga własnych danych API.
 - Filtr odrzuca linki do plików wykonywalnych (anty-malware sanity-check).
 
+## Autor
+
+**Arek** — pseudonim **h5n1** (z czasów IRC, ~2001). Samouk od mIRC
+po automatyzacje pisane z AI. SoftHunt powstał, bo Arek nużyło sprawdzanie
+dziesięciu stron codziennie, żeby nie przegapić darmowej gry — zamiast tego
+napisał bota, który robi to za niego. Pomysły i weryfikacja — jego, kod z AI.
+
 ## Licencja
 
 MIT — patrz `LICENSE`.
